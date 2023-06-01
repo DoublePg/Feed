@@ -15,7 +15,7 @@ For each dataset, we provide `IID` and `Non-IID` cases used in our experiments. 
 
 | tasks | public datasets      | private datasets    |
 | ---------- | --------------- | ------------- |
-| 1          | EMNIST          | FEMNIST       |
+| 1          | MNIST          | EMNIST       |
 | 2          | CIFAR10         | CIFAR100      |
 | 3          | YELP-automotive | YELP-restaurant |
 
