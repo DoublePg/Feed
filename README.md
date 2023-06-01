@@ -11,7 +11,7 @@ Federated learning (FL) has become an emerging paradigm via cooperative training
 
 ### Dataset generation
 
-For each dataset, we provide `IID` and `Non-IID` cases used in our experiments. We partition these datasets into 10 clients in IID and Non-IID cases, and store in `Feed/dataset/` folders.
+For each dataset, we provide `IID` and `Non-IID` cases used in our experiments. For more details, please refer to `data_utils.py`. We partition these datasets into 10 clients in IID and Non-IID cases, and store in `Feed/dataset/` folders. 
 
 | tasks | public datasets      | private datasets    |
 | ---------- | --------------- | ------------- |
