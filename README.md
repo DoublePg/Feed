@@ -48,40 +48,29 @@ For each dataset, we provide `IID` and `Non-IID` cases used in our experiments. 
 The running command includes two parameters: `--conf` and `--method`. 
 The `--conf` parameter is used to set the path for the program's hyperparameter configuration file (refer to `./conf`), while the `--method` parameter is used to specify the federated learning algorithm (refer to `./methods`).
 
-run `FEMNIST IID`:
-
+running on `HR task`:
 ```
+- IID case
 python FEMNIST_Balanced.py --method Feed --conf conf/FEMNIST_balanced_conf.json
-```
 
-run `FEMNIST Non-IID`:
-
-```
+- Non-IID case
 python FEMNIST_Imbalanced.py --method Feed --conf conf/FEMNIST_imbalanced_conf.json
 ```
 
-run `CIFAR IID`:
-
+running on `OC task`:
 ```
+- IID case
 python CIFAR_Balanced.py --method Feed --conf conf/CIFAR_balanced_conf.json
-```
 
-run `CIFAR Non-IID`:
-
-```
+- Non-IID case
 python CIFAR_Imbalanced.py --method Feed --conf conf/CIFAR_imbalanced_conf.json
 ```
 
-run `YELP IID`:
-
-
+running on `SA task`:
 ```
+- IID case
 python YELP_Balanced.py --method Feed --conf conf/YELP_balanced_conf.json
-```
 
-run `YELP Non-IID`:
-
-
-```
+- Non-IID case
 python YELP_Imbalanced.py --method Feed --conf conf/YELP_imbalanced_conf.json
 ```
