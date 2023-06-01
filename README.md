@@ -1,6 +1,6 @@
 # Feed: Towards Personalization-Effective Federated Learning
 
-This repository contains the code and experiments for the manuscript:
+This repository contains the code and baselines for the manuscript:
 
 > [Feed: Towards Personalization-Effective Federated Learning](https://github.com/DoublePg/Feed)
 >
