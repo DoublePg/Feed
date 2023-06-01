@@ -13,6 +13,12 @@ Federated learning (FL) has become an emerging paradigm via cooperative training
 
 For each dataset, we provide `IID` and `Non-IID` cases used in our experiments. We store these datasets in `Feed/dataset/` folders.
 
+| tasks | public datasets      | private datasets    |
+| ---------- | --------------- | ------------- |
+| 1          | EMNIST          | FEMNIST       |
+| 2          | CIFAR10         | CIFAR100      |
+| 3          | YELP-automotive | YELP-restaurant |
+
 
 ### Downloading dependencies
 
