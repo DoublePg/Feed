@@ -50,7 +50,9 @@ The `--conf` parameter is used to set the path for the program's hyperparameter 
 
 run `FEMNIST IID`:
 
-```python FEMNIST_Balanced.py --method Feed --conf conf/FEMNIST_balanced_conf.json```
+```
+python FEMNIST_Balanced.py --method Feed --conf conf/FEMNIST_balanced_conf.json
+```
 
 run `FEMNIST Non-IID`:
 
