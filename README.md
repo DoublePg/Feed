@@ -30,7 +30,7 @@ For each dataset, we provide `IID` and `Non-IID` cases used in our experiments. 
 - tensorflow-gpu=2.0.0=h0d30ee6_0
 - keras=2.3.1=0
 ``` 
-更多详细设置参见一级目录下的`environment.yml`文件。
+See `environment.yml` for more details.
 
 ## Instructions
 
