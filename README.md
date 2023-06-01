@@ -7,7 +7,7 @@ This repository contains the code and baselines for the manuscript:
 
 Federated learning (FL) has become an emerging paradigm via cooperative training models among distributed clients without leaking data privacy. The performance degradation of FL on heterogeneous data has driven the development of personalized FL (PFL) solutions, where different models are built for individual clients. However, our in-depth analysis on existing PFL approaches discloses that they only support limited personalization regarding modeling capability and training strategy. To this end, we propose a novel PFL solution, Feed, that employs an enhanced shared-private model architecture and equips with a hybrid federated training strategy. Specifically, to model heterogeneous data in different clients, we design an ensemble-based shared encoder that  generates an ensemble of embeddings, and a private decoder that adaptively aggregates the embeddings for personalized prediction. In addition, we propose a server-side hybrid federated aggregation strategy to enable effective training the heterogeneous shared-private model. To prevent personalization degradation in local model update, we further optimize the personalized local training on the client-side by smoothing the historical encoders. Extensive experiments on MNIST/FEMNIST, CIFAR10/CIFAR100, and YELP datasets validate that Feed consistently outperforms the state-of-the-art approaches.
 
-## Preparation Instructions
+## Preparation
 
 ### Dataset generation
 
@@ -37,3 +37,6 @@ For each dataset, we provide `IID` and `Non-IID` cases used in our experiments. 
 ### Files Instructions
 
 * `main files` : The files  `FEMNIST_Balanced.py `,  `FEMNIST_Imbalanced.py `,  `CIFAR_Balanced.py `,  `CIFAR_Imbalanced.py `,  `YELP_Balanced.py `, and  `YELP_Imbalanced.py ` represent three tasks under IID and Non-IID cases.
+* `losses.py` : contains all the custom loss functions.
+* `data_utils.py` : includes dataset loading and partitioning operations.
+* `./methods` : contains 13 federated learning algorithms, including `Feed`, `Ditto`, `FedAvg`, `FedBabu`, `FedMD`, `FedPer`, `FedPhp`, `FedProc`, `FedProto`, `FedProx`, `FedRep`, `LGFedAvg` and `MOON`.
