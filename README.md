@@ -38,6 +38,7 @@ For each dataset, we provide `IID` and `Non-IID` cases used in our experiments. 
 
 * `main files` : The files  `FEMNIST_Balanced.py `,  `FEMNIST_Imbalanced.py `,  `CIFAR_Balanced.py `,  `CIFAR_Imbalanced.py `,  `YELP_Balanced.py `, and  `YELP_Imbalanced.py ` represent three tasks under IID and Non-IID cases.
 * `losses.py` : contains all the custom loss functions.
+* `Neural_Networks.py` : contains all the model architecture.
 * `data_utils.py` : includes dataset loading and partitioning operations.
 * `./methods` : contains 13 federated learning algorithms, including `Feed`, `Ditto`, `FedAvg`, `FedBabu`, `FedMD`, `FedPer`, `FedPhp`, `FedProc`, `FedProto`, `FedProx`, `FedRep`, `LGFedAvg` and `MOON`.
 * `./conf` : stores model and hyperparameter configuration files for the three tasks under IID and Non-IID cases.
