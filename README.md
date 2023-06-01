@@ -11,7 +11,7 @@ Federated learning (FL) has become an emerging paradigm via cooperative training
 
 ### Dataset generation
 
-For each dataset, we provide links to downloadable datasets used in our experiments. We describe in our paper and the `REAME` files in separate `ditto/data/$dataset` folders on how these datasets are generated, and provide instructions and scripts on preprocessing and/or sampling data.
+For each dataset, we provide `IID` and `Non-IID` cases used in our experiments. We store these datasets in `Feed/dataset/` folders.
 
 
 ### Downloading dependencies
