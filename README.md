@@ -20,7 +20,7 @@ For each dataset, we provide `IID` and `Non-IID` cases used in our experiments. 
 | SA          | YELP-automotive | YELP-restaurant |
 
 
-### Downloading dependencies
+### Installing dependencies
 
 ```
 - python=3.7.13=h12debd9_0
